@@ -29,3 +29,7 @@ cuandoPasa('seleccionarArtista', ({ id, cantidad, codigoDescuento }) => {
 });
 
 iniciar();
+function calcularTotal(id: string, cantidad: number, codigo: string): number {
+  throw new Error('Function not implemented.');
+}
+
